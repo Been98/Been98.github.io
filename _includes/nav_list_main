@@ -21,11 +21,11 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav_sub-title">Unity</span>
+        <span class="nav__sub-title">Unity</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[1] == "Unity" %}
-                        <li><a href="/categories/Unity" class="">Unity ({{category[2].size}})</a></li>
+                    {% if category[0] == "Unity" %}
+                        <li><a href="/categories/Unity" class="">Unity ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>   
